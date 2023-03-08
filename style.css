@@ -38,3 +38,27 @@ h1{
 .icone{
     margin-left: 15px;
 }
+
+/* conteudo so site */
+#content{
+    max-width: 900px;
+    margin: auto;
+}
+.parafrafos{
+    font-size: 28px;
+}
+h2{
+    font-size: 30px;
+}
+figure{
+    margin: 0;
+}
+.laranja{
+    color: rgb(254, 129, 4);
+}
+
+#footer{
+    margin-top: 200px;
+    height: 90px;
+    background-color: #333;
+}

@@ -2,41 +2,49 @@ body{
     padding: 0px;
     margin: 0px;
     font-family: "Open Sans";
+    color: #555;
 }
+h1, h2{
+    color: #111;
+}
+
 #top-bar{
-    padding: 1px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 35px;
-    color: white;
     background-color: #333;
-    border-width: 0px 0px 8px 0px;
-    border-style: solid;
-    border-color: rgb(254, 129, 4);
-}
-#reader{
-    max-width: 1200px;
-    margin: auto;
-}
-h1{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
     text-align: center;
-    font-size: 70px;
-    font-weight: 700;
+    padding: 8px;
+    border-bottom: 5px solid #fd8a24;
 }
-#p1{
-    font-size: 28px;
+.container{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
 }
-#p2{
+#t1{
+    font-size: 56px;
+    line-height: 64px;
+}
+#t2{
+    font-weight: normal;
     font-size: 20px;
+}
+#autor{
+    font-size: 0.8em;
     font-weight: bold;
 }
-#p3{
-    font-size: 15px;
-    margin-bottom: 30px;
-    color: rgba(00, 00, 00, 0.3)
+
+.redes_sociais{
+    margin-top: 10px;
 }
 .icone{
-    margin-left: 15px;
+    width: 20px;
+    padding: 10px 10px 10px 0;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* conteudo so site */
